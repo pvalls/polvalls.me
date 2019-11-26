@@ -1,0 +1,7 @@
+*.log
+node_modules
+.eslintcache
+public/
+.cache/
+.DS_Store
+pvalls.github.io.zip
