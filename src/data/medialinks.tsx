@@ -1,5 +1,5 @@
 const MediaLinksData = [
-  { link: 'polvallsrue@gmail.com', icon: 'fas fa-2x fa-envelope' },
+  { link: 'mailto:polvallsrue@gmail.com', icon: 'fas fa-2x fa-envelope' },
   {
     link: 'https://www.linkedin.com/in/polvalls/',
     icon: 'fab fa-2x fa-linkedin',
@@ -32,10 +32,10 @@ const MediaLinksData = [
     link: 'https://open.spotify.com/user/vflicvbu8h32rulbtjotri4if?si=MOZoT42QTsylJTkNxjEQ1Q',
     icon: 'fab fa-2x fa-spotify',
   },
-  {
-    link: 'https://www.paypal.me/polvalls',
-    icon: 'fab fa-2x fa-paypal',
-  },
+  // {
+  //   link: 'https://www.paypal.me/polvalls',
+  //   icon: 'fab fa-2x fa-paypal',
+  // },
 ];
 
 export default MediaLinksData;
