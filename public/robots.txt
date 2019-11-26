@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-sitemap: https://starter-ts-gatsby-bulma.me/sitemap.xml
