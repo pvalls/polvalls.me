@@ -6,7 +6,7 @@ import { TimelineDataObject, EntrepreneurData} from '../types';
 // const BLUEYE: ExperienceData = {
   const BLUEYE: EntrepreneurData = {
   id: 'BLUEYE',
-  period: 'July 2019 - Now',
+  period: 'November 2019 - Now',
   title: 'Entrepreneur at BluEye Computer Vision Solutions SL',
   // headingIcon: 'fa-brain',
   headingIcon: 'fa-rocket',

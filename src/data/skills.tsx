@@ -7,29 +7,29 @@ const Languages = [
 ];
 
 const Programming = [
-  { label: 'Python', value: 70 },
-  { label: 'C++', value: 51 },
-  { label: 'Java', value: 51 },
+  { label: 'Python', value: 65 },
+  { label: 'C++', value: 45 },
+  { label: 'Java', value: 45 },
 ];
 
 const Web = [
-  { label: 'HTML5, CSS', value: 65 },
-  { label: 'JavaScript & Typescript',  value: 65 },
-  { label: 'React.js, Three.js, Bootstrap, Gatsby, Bulma', value: 40 },
-  { label: 'Node.js, REST APIs, mongoDB, MySQL', value: 40 },
+  { label: 'HTML5, CSS', value: 60 },
+  { label: 'JavaScript & Typescript',  value: 60 },
+  { label: 'React.js, Three.js, Bootstrap, Gatsby, Bulma', value: 26 },
+  { label: 'Node.js, REST APIs, mongoDB, MySQL', value: 26 },
 ];
 
 const General = [
-  { label: 'Bash. Shell scripting. (CLI)', value: 65 },
-  { label: 'Git & version control', value: 85 },
-  { label: 'Docker', value: 45 },
-  { label: 'Cmake', value: 45 },
+  { label: 'Bash. Shell scripting. (CLI)', value: 60 },
+  { label: 'Git & version control', value: 80 },
+  { label: 'Docker', value: 40 },
+  { label: 'Cmake', value: 40 },
   // { label: 'Jenkins, Ansible, OpenStack', value: 40},
 ];
 
 const  TECHNICALCOMPUTING = [
   { label: 'MATLAB/OCTAVE', value: 90 },
-  { label: 'PureData', value: 70 },
+  { label: 'PureData', value: 65 },
   { label: 'LaTeX', value: 90 },
 ];
 
@@ -37,14 +37,14 @@ const OS = [
   { label: 'macOS', value: 95 },
   { label: 'Windows 10', value: 95 },
   { label: 'Linux', value: 75 },
-  { label: 'Raspberry and development boards', value: 55 },
+  { label: 'Raspberry and development boards', value: 50 },
 ];
 
 const OfficeSuits = [
   { label: 'Visual Studio Code, Jupyter Notebook', value: 70 },
   { label: 'PyCharm, Xcode, NetBeans', value: 70 },
   { label: 'Adobe CC: Photoshop, LightRoom', value: 50 },
-  { label: 'Apple\'s FinalCut', value: 70 },
+  { label: 'Apple\'s FinalCut', value: 50 },
   { label: 'Canva, Snappa, MailChimp', value: 70 },
 ];
 
