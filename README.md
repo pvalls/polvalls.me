@@ -16,5 +16,5 @@ Simple portfolio web page created with [**GatsbyJS**](https://www.gatsbyjs.org).
 ## Acknowledgements ##
 
 Base website template taken from [@aalises
-](https://github.com/aalises). Added new sections (Licences & Certifications), contact links and entrepreneur experience items.
+](https://github.com/aalises). Added new sections (Licences & Certifications), entrepreneur experience items, contact links and google analytics.
 
