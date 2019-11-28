@@ -6,7 +6,7 @@ const ContactList = ({ data }: any[]) => (
       <div key={`contact-${el.icon}`}>
         <span>
           <i style={{ paddingRight: '1rem' }} className={el.icon} />
-          <a href={el.link}>{el.field}</a>
+          <a href={el.link} target="_blank">{el.field}</a>
         </span>
       </div>
     ))}
