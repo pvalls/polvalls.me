@@ -3,7 +3,50 @@ import Img from 'gatsby-image';
 import { PaddingContainer } from '../styles/custom-styled-components';
 import { ExperienceData, TimelineDataObject} from '../types';
 
-// const BLUEYE: ExperienceData = {
+const PLYZER: ExperienceData = {
+  id: 'PLYZER',
+  period: 'December 2019 - Now',
+  title: 'Software Developer',
+  place: 'Barcelona, Spain',
+  headingIcon: 'fa-rocket',
+  company: 'Plyzer Technologies',
+  iconURL: 'PLYZER.png',
+  about: [
+    <div key="plyzer-resp-1">
+    <b>Artificial Intelligence team (AI)</b>.
+    </div>,
+  ],
+  responsabilities: [
+    <div key="plyzer-resp-1">
+      Research and development of AI and computer vision solutions for Plyzer's new projects.
+    </div>,
+  ],
+  technologies: [
+    // <div key="plyzer-tech-1">
+    //   <b></b>
+    // </div>,
+  ],
+  additional_content: data => (
+
+    <div className="columns">
+    <div className="column is-half no-padding">
+      <figure className="image">
+        <Img fluid={data['PLYZER_1'].childImageSharp.fluid} />
+        <figcaption>Plyzer Offices.</figcaption>
+      </figure>
+    </div>
+    <div className="column no-padding">
+      <figure className="image">
+        <Img fluid={data['PLYZER_2'].childImageSharp.fluid} />
+        <figcaption></figcaption>
+      </figure>
+    </div>
+    </div>
+  ),
+};
+
+
+
 const SCYTL: ExperienceData = {
   id: 'SCYTL',
   period: 'December 2018 - May 2019',
@@ -176,8 +219,9 @@ const TECHIE: ExperienceData = {
 
 
 const dataObject: TimelineDataObject[] = [
-  // { id: 'header', medium: true, data: 'Now' },
-  // { id: 'item', data: BLUEYE },
+
+  { id: 'header', medium: false, data: '2019' },
+  { id: 'item', data: PLYZER },
   { id: 'header', medium: false, data: '2019' },
   { id: 'item', data: SCYTL },
   { id: 'header', medium: false, data: '2018' },

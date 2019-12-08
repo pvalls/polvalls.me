@@ -59,6 +59,18 @@ const imageDataExperience = graphql`
       ...fluidImage
     }
 
+    PLYZER_logo: file(relativePath: { eq: "PLYZER2.png" }) {
+      ...fixedImage
+    }
+
+    PLYZER_1: file(relativePath: { eq: "PlyzerOffice1.jpeg" }) {
+      ...fluidImage
+    }
+
+    PLYZER_2: file(relativePath: { eq: "PLYZER.png" }) {
+      ...fluidImage
+    }
+
     TECHIE_logo: file(relativePath: { eq: "TECHIE.jpg" }) {
       ...fixedImage
     }
