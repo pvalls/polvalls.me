@@ -1,8 +1,6 @@
 # Pol Valls personal webpage
 
-[http://www.polvalls.me
-](http://www.polvalls.me)
-
+#### [http://www.polvalls.me](http://www.polvalls.me)
 Simple portfolio web page created with [**GatsbyJS**](https://www.gatsbyjs.org).
 
 ## Technologies ##
@@ -15,6 +13,7 @@ Simple portfolio web page created with [**GatsbyJS**](https://www.gatsbyjs.org).
 
 ## Acknowledgements ##
 
-Base website template taken from [@aalises
-](https://github.com/aalises). Added new sections (Licences & Certifications), entrepreneur experience items, contact links and google analytics.
+Base website template from [@aalises](https://github.com/aalises). 
+
+Added new sections (Licences & Certifications), entrepreneur experience items, contact links and google analytics.
 
