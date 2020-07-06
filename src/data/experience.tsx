@@ -18,7 +18,7 @@ const PLYZER: ExperienceData = {
   ],
   responsabilities: [
     <div key="plyzer-resp-1">
-      Research and development of AI and computer vision solutions for Plyzer's new projects.
+      Research and development of AI solutions for Plyzer.
     </div>,
   ],
   technologies: [
