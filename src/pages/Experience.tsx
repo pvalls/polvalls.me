@@ -2,6 +2,7 @@ import * as React from 'react';
 import SectionHeader from '../components/SectionHeader';
 import Timeline from '../components/Timeline';
 import ExperienceData from '../data/experience';
+import ExperienceDataNoTech from '../data/experiencenotech';
 import EntrepreneurData from '../data/entrepreneur';
 import { useStaticQuery, graphql } from 'gatsby';
 
@@ -88,6 +89,7 @@ const Experience = () => {
     <React.Fragment>
       <SectionHeader title="Experience" icon="fa-briefcase" />
       <Timeline itemType="entrepreneur" data={EntrepreneurData} images={data} />
+      <Timeline itemType="experiencenotech" data={ExperienceDataNoTech} images={data} />
       <Timeline itemType="experience" data={ExperienceData} images={data} />
 
     </React.Fragment>

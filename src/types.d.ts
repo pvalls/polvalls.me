@@ -30,6 +30,21 @@ interface ExperienceData {
   additional_content?: any;
 }
 
+interface ExperienceDataNoTech {
+  id: string;
+  period: string;
+  title: string;
+  company: string;
+  headingIcon: string;
+  place: string;
+  iconURL: string;
+  about: any[];
+  responsabilities?: any[];
+  // technologies?: any[];
+  // accomplishments?: any[];
+  additional_content?: any;
+}
+
 interface EducationData {
   id: string;
   headingIcon: string;
