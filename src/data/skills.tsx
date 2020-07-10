@@ -1,3 +1,4 @@
+import { SkillsData } from '../types';
 
 const Languages = [
   { label: 'Spanish', value: 100 },
