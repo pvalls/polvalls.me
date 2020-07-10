@@ -6,21 +6,23 @@ import { ExperienceDataNoTech, TimelineDataObject} from '../types';
 const PLYZER: ExperienceDataNoTech = {
   id: 'PLYZER',
   period: 'December 2019 - Now',
-  title: 'Software Developer',
+  title: 'Artificial Intelligence Engineer',
   place: 'Barcelona, Spain',
   headingIcon: 'fa-rocket',
   company: 'Plyzer Technologies',
   iconURL: 'PLYZER.png',
   about: [
     <div key="plyzer-resp-1">
-    <b>Artificial Intelligence team (AI Team).</b>
+    <b>Artificial Intelligence Team (AI Team).</b>
     </div>,
   ],
   responsabilities: [
     <div key="plyzer-resp-1">
-      Research and development of AI solutions for Plyzer.
-      {/* Development and maintenance of the core backend systems of the Business Intelligence tools. */}
+      Research, engineering and development of AI solutions for Plyzer.
     </div>,
+    // <div key="plyzer-resp-2">
+    //   Development and maintenance of the core backend systems of the Business Intelligence tools.
+    // </div>,
   ],
   // technologies: [
   //   <div key="plyzer-tech-1">
