@@ -3,35 +3,46 @@ import { SkillsData } from '../types';
 const Languages = [
   { label: 'Spanish', value: 100 },
   { label: 'Catalan', value: 100 },
-  { label: 'English', value: 94 },
+  { label: 'English', value: 96 },
   { label: 'French', value: 26 },
 ];
 
 const Programming = [
-  { label: 'Python', value: 65 },
+  { label: 'Python', value: 85 },
   { label: 'C++', value: 45 },
   { label: 'Java', value: 45 },
+  { label: 'C#', value: 35 },
 ];
 
 const Web = [
-  { label: 'HTML5, CSS', value: 60 },
-  { label: 'JavaScript & Typescript',  value: 60 },
-  { label: 'React.js, Three.js, Bootstrap, Gatsby, Bulma', value: 26 },
-  { label: 'Node.js, REST APIs, mongoDB, MySQL', value: 26 },
+  { label: 'HTML5, CSS', value: 80 },
+  { label: 'JavaScript & Typescript',  value: 65 },
+  { label: 'Node.js, React.js, Three.js. Bootstrap, Gatsby', value: 34 },
+  { label: 'REST APIs. Django. MySQL. mongoDB. graphDB (neo4j, cypher)', value: 40 },
 ];
 
 const General = [
-  { label: 'Bash. Shell scripting. (CLI)', value: 60 },
-  { label: 'Git & version control', value: 80 },
-  { label: 'Docker', value: 40 },
-  { label: 'Cmake', value: 40 },
-  // { label: 'Jenkins, Ansible, OpenStack', value: 40},
+  { label: 'Bash, Zsh. General Shell scripting (CLI).', value: 80 },
+  { label: 'Git & version control', value: 90 },
+  { label: 'Conda, Tmux, Cron, rsync, ... ', value: 90 },
+  { label: 'Docker', value: 60 },
 ];
 
+const CloudComputing = [
+  { label: 'AWS: EC2, Lambda, S3, Aurora RDS, Kinesis, SNS, SQS, ...', value: 75 },
+  { label: 'Google Cloud.', value: 45 },
+  { label: 'Heroku.', value: 45 },
+  { label: 'Microsoft Azure.', value: 30 },
+  { label: 'Jenkins, Ansible, OpenStack', value: 40},
+];
+
+
 const  TECHNICALCOMPUTING = [
-  { label: 'MATLAB/OCTAVE', value: 90 },
+  { label: 'MATLAB/OCTAVE', value: 95 },
   { label: 'PureData', value: 65 },
-  { label: 'LaTeX', value: 90 },
+  { label: 'R', value: 35 },
+  { label: 'Markdown', value: 95 },
+  { label: 'LaTeX', value: 95 },
 ];
 
 const OS = [
@@ -42,19 +53,20 @@ const OS = [
 ];
 
 const OfficeSuits = [
-  { label: 'Visual Studio Code, Jupyter Notebook', value: 70 },
-  { label: 'PyCharm, Xcode, NetBeans', value: 70 },
+  { label: 'Visual Studio Code', value: 90 },
+  { label: 'PyCharm, Xcode, Jupyter Notebooks', value: 75 },
   { label: 'Adobe CC: Photoshop, LightRoom', value: 50 },
   { label: 'Apple\'s FinalCut', value: 50 },
-  { label: 'Canva, Snappa, MailChimp', value: 70 },
+  // { label: 'Canva, Snappa, MailChimp', value: 70 },
 ];
 
 const Workflows = [
+  { label: 'Github, gh-pages, gh-issues, gh-actions, ...', value: 85 },
+  { label: 'Trello', value: 100 },
   { label: 'Microsoft Office: Excel, Word, PowerPoint', value: 80 },
-  { label: 'Google Cloud: Docs, Sheets, Slides', value: 80 },
+  { label: 'Google: Docs, Sheets, Slides, ...', value: 80 },
   { label: 'iWork: Numbers, Pages, Keynote.', value: 80 },
   { label: 'Jira, TestRail', value: 45 },
-  { label: 'Trello', value: 80 },
   
 ];
 
@@ -63,6 +75,7 @@ const dataObject: SkillsData[] = [
   { title: 'General purpose imperative programming', data: Programming, color: 'primary' },
   { title: 'Full Stack development and DBMS', data: Web, color: 'success' },
   { title: 'General computing, CI/CD', data: General, color: 'warning' },
+  { title: 'Cloud computing, cloud architecture', data: CloudComputing, color: 'info' },
   { title: 'Computing and science', data: TECHNICALCOMPUTING, color: 'dark' },
   { title: 'Operative Systems and platforms', data: OS, color: 'danger' },
   { title: 'Software suits', data: OfficeSuits, color: 'primary' },
