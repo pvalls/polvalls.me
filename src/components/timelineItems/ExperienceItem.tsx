@@ -29,7 +29,7 @@ export default ({
             </figure>
           ) : null}
         </div>
-        <div className="column is-four-fifths">
+        <div className="column is-full">
           <p className="heading">{period}</p>
           <h1 className="title is-size-5">{title}</h1>
           <h6 className="subtitle is-size-6">{company}</h6>
