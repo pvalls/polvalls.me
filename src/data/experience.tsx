@@ -13,8 +13,8 @@ const SCYTL: ExperienceData = {
   company: 'Scytl Secure Electronic Voting SA',
   iconURL: 'SCYTL_logo.png',
   about: [
-    <div key="scytl-resp-1">
-    <b>Quality Assurance team (QA)</b>.
+    <div key="scytl-about-1">
+      <b>Quality Assurance team (QA)</b>.
     </div>,
   ],
   responsabilities: [
@@ -23,8 +23,8 @@ const SCYTL: ExperienceData = {
       maintainability, usability, device compatibility, performance and security.
     </div>,
     <div key="scytl-resp-2">
-    Building and delivering QA documentation.
-  </div>,
+      Building and delivering QA documentation.
+    </div>,
     <div key="scytl-resp-3">
       Bug reporting and tracking. 
     </div>,
@@ -37,9 +37,9 @@ const SCYTL: ExperienceData = {
       <b>Workflows:</b> with Jira, TestRail, Skype Business, etc.{' '}
     </div>,
     <div key="scytl-tech-3">
-    <b>Others:</b> Unix Bash shell, Open-stack, Ansible, Docker, Linux servers, 
-    Splunk, PostMan, PuTTY, Microsoft Office Automation. Configuration 
-    of Interacative Voice Response systems (IVR).
+      <b>Others:</b> Unix Bash shell, Open-stack, Ansible, Docker, Linux servers, 
+      Splunk, PostMan, PuTTY, Microsoft Office Automation. Configuration 
+      of Interacative Voice Response systems (IVR).
     </div>,
   ],
   // accomplishments: [
@@ -87,28 +87,28 @@ const CUATRECASAS: ExperienceData = {
   id: 'CUATRECASAS',
   period: 'March 2018 - September 2018',
   title: 'Software Developer Internship',
-  headingIcon: 'fa-book',
   place: 'Barcelona, Spain',
+  headingIcon: 'fa-book',
   company: "CUATRECASAS GONCALVES PEREIRA SLP",
   iconURL: 'CUATRECASAS.jpg',
   about: [
-    <div key="CUATRECASAS-resp-1">
+    <div key="cuatrecasas-about-1">
       <b>"Innovation &amp; Applications Consulting" department internship. </b>
     </div>,
   ],
   responsabilities: [
-    <div key="CUATRECASAS-resp-1">
-    Support with programming and testing in different development projects. Project management methodology.
+    <div key="cuatrecasas-resp-1">
+      Support with programming and testing in different development projects. Project management methodology.
     </div>,
   ],
   technologies: [
-    <div key="CUATRECASAS-tech-1">
+    <div key="cuatrecasas-tech-1">
       <b>Web development:</b> HTML 5, CSS3, Javascript, Typescript, React, Bootstrap. I build the "Fundació CUATRECASAS" website.
     </div>,
-    <div key="CUATRECASAS-tech-2">
+    <div key="cuatrecasas-tech-2">
       <b>HotDocs.</b> Word documents automation. Deployment of software such as "LexNet Tools".
     </div>,
-    <div key="CUATRECASAS-tech-3">
+    <div key="cuatrecasas-tech-3">
       <b>Other:</b> .NET, PHP, MySQL. TFS servers.
     </div>,
   ],
