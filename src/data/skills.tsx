@@ -57,7 +57,6 @@ const OfficeSuits = [
   { label: 'PyCharm, Xcode, Jupyter Notebooks', value: 75 },
   { label: 'Adobe CC: Photoshop, LightRoom', value: 50 },
   { label: 'Apple\'s FinalCut', value: 50 },
-  // { label: 'Canva, Snappa, MailChimp', value: 70 },
 ];
 
 const Workflows = [
