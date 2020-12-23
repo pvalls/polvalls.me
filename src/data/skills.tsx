@@ -14,6 +14,14 @@ const Programming = [
   { label: 'C', value: 45 },
 ];
 
+
+const General = [
+  { label: 'Bash, Zsh. General Shell scripting (CLI)', value: 90 },
+  { label: 'Git & version control', value: 90 },
+  { label: 'Conda, Tmux, Cron, rsync, ... ', value: 90 },
+  { label: 'Docker', value: 60 },
+];
+
 const Web = [
   { label: 'HTML5, CSS', value: 80 },
   { label: 'JavaScript & Typescript',  value: 65 },
@@ -21,12 +29,6 @@ const Web = [
   { label: 'REST APIs. Django. MySQL. mongoDB. graphDB (neo4j, cypher)', value: 40 },
 ];
 
-const General = [
-  { label: 'Bash, Zsh. General Shell scripting (CLI).', value: 80 },
-  { label: 'Git & version control', value: 90 },
-  { label: 'Conda, Tmux, Cron, rsync, ... ', value: 90 },
-  { label: 'Docker', value: 60 },
-];
 
 const CloudComputing = [
   { label: 'AWS: EC2, Lambda, S3, Aurora RDS, Kinesis, SNS, SQS, ...', value: 75 },
