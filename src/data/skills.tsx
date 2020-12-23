@@ -64,7 +64,7 @@ const OfficeSuits = [
 const Workflows = [
   { label: 'Agile/Scrum methodologies', value: 85},
   { label: 'Test Driven Development (TDD), PyTest, TestRail, ...', value: 85 },
-  { label: 'GitHub, GitHub Actions, GitLab, ...', value: 85 },
+  { label: 'Version Contrtol GUIs: GitHub, GitLab, Sourcetree, ...', value: 85 },
   { label: 'Microsoft Office: Excel, Word, PowerPoint', value: 85 },
   { label: 'Google: Docs, Sheets, Slides, ...', value: 85 },
   { label: 'iWork: Numbers, Pages, Keynote.', value: 85 },
