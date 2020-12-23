@@ -20,9 +20,9 @@ const PLYZER: ExperienceDataNoTech = {
     <div key="plyzer-resp-1">
       Research, engineering and development of AI solutions for Plyzer.
     </div>,
-    // <div key="plyzer-resp-2">
-    //   Development and maintenance of the core backend systems of the Business Intelligence tools.
-    // </div>,
+    <div key="plyzer-resp-2">
+      Development and maintenance of the core backend systems of the Business Intelligence tools.
+   </div>,
   ],
   // technologies: [
   //   <div key="plyzer-tech-1">
