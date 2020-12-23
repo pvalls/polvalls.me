@@ -37,7 +37,7 @@ const CloudComputing = [
 ];
 
 
-const  TECHNICALCOMPUTING = [
+const  TechnicalComputing = [
   { label: 'MATLAB/OCTAVE', value: 95 },
   { label: 'PureData', value: 65 },
   { label: 'R', value: 35 },
@@ -76,7 +76,7 @@ const dataObject: SkillsData[] = [
   { title: 'Full Stack development and DBMS', data: Web, color: 'success' },
   { title: 'General computing, CI/CD', data: General, color: 'warning' },
   { title: 'Cloud computing, cloud architecture', data: CloudComputing, color: 'info' },
-  { title: 'Computing and science', data: TECHNICALCOMPUTING, color: 'dark' },
+  { title: 'Computing and science', data: TechnicalComputing, color: 'dark' },
   { title: 'Operative Systems and platforms', data: OS, color: 'danger' },
   { title: 'Software suits', data: OfficeSuits, color: 'primary' },
   { title: 'Workflows, project management', data: Workflows, color: 'info' },
