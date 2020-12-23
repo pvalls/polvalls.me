@@ -17,7 +17,7 @@ const Programming = [
 const Web = [
   { label: 'HTML5, CSS', value: 80 },
   { label: 'JavaScript & Typescript',  value: 65 },
-  { label: 'Node.js, React.js, Three.js. Bootstrap, Gatsby', value: 34 },
+  { label: 'Node.js, React.js, Three.js. Bootstrap, Gatsby', value: 40 },
   { label: 'REST APIs. Django. MySQL. mongoDB. graphDB (neo4j, cypher)', value: 40 },
 ];
 
@@ -32,24 +32,24 @@ const CloudComputing = [
   { label: 'AWS: EC2, Lambda, S3, Aurora RDS, Kinesis, SNS, SQS, ...', value: 75 },
   { label: 'Google Cloud.', value: 45 },
   { label: 'Heroku.', value: 45 },
-  { label: 'Microsoft Azure.', value: 30 },
-  { label: 'Jenkins, Ansible, OpenStack', value: 40},
+  { label: 'Microsoft Azure.', value: 45 },
+  { label: 'Jenkins, Ansible, OpenStack', value: 45},
 ];
 
 
 const  TechnicalComputing = [
   { label: 'MATLAB/OCTAVE', value: 95 },
-  { label: 'PureData', value: 65 },
-  { label: 'R', value: 35 },
   { label: 'Markdown', value: 95 },
   { label: 'LaTeX', value: 95 },
+  { label: 'PureData', value: 35 },
+  { label: 'R', value: 35 },
 ];
 
 const OS = [
   { label: 'macOS', value: 95 },
   { label: 'Windows 10', value: 95 },
   { label: 'Linux', value: 75 },
-  { label: 'Raspberry and development boards', value: 50 },
+  { label: 'Raspberry and development boards', value: 75 },
 ];
 
 const OfficeSuits = [
@@ -60,13 +60,12 @@ const OfficeSuits = [
 ];
 
 const Workflows = [
-  { label: 'Github, gh-pages, gh-issues, gh-actions, ...', value: 85 },
-  { label: 'Trello', value: 100 },
-  { label: 'Microsoft Office: Excel, Word, PowerPoint', value: 80 },
-  { label: 'Google: Docs, Sheets, Slides, ...', value: 80 },
-  { label: 'iWork: Numbers, Pages, Keynote.', value: 80 },
-  { label: 'Jira, TestRail', value: 45 },
-  
+  { label: 'Agile/Scrum methodologies', value: 85},
+  { label: 'Test Driven Development (TDD), PyTest, TestRail, ...', value: 85 },
+  { label: 'GitHub, GitHub Actions, GitLab, ...', value: 85 },
+  { label: 'Microsoft Office: Excel, Word, PowerPoint', value: 85 },
+  { label: 'Google: Docs, Sheets, Slides, ...', value: 85 },
+  { label: 'iWork: Numbers, Pages, Keynote.', value: 85 },
 ];
 
 const dataObject: SkillsData[] = [
