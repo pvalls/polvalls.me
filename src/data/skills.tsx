@@ -8,10 +8,10 @@ const Languages = [
 ];
 
 const Programming = [
-  { label: 'Python', value: 85 },
+  { label: 'Python', value: 90 },
+  { label: 'Java', value: 60 },
   { label: 'C++', value: 45 },
-  { label: 'Java', value: 45 },
-  { label: 'C#', value: 35 },
+  { label: 'C', value: 45 },
 ];
 
 const Web = [
