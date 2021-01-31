@@ -19,14 +19,14 @@ const General = [
   { label: 'Bash, Zsh. General Shell scripting (CLI)', value: 90 },
   { label: 'Git & version control', value: 90 },
   { label: 'Conda, Tmux, Cron, rsync, ... ', value: 90 },
-  { label: 'Docker', value: 60 },
+  { label: 'Docker.  Jenkins, Ansible, GitHub Actions', value: 80 },
 ];
 
 const Web = [
-  { label: 'HTML5, CSS', value: 80 },
+  { label: 'HTML5, CSS', value: 85 },
   { label: 'JavaScript & Typescript',  value: 65 },
-  { label: 'Node.js, React.js, Three.js. Bootstrap, Gatsby', value: 40 },
-  { label: 'REST APIs. Django. MySQL. mongoDB. graphDB (neo4j, cypher)', value: 40 },
+  { label: 'Node.js, React.js, Three.js. Bootstrap, Gatsby', value: 65 },
+  { label: 'REST APIs. Django. MySQL/PostgreSQL. mongoDB. graphDB', value: 85 },
 ];
 
 
@@ -50,7 +50,7 @@ const  TechnicalComputing = [
 const OS = [
   { label: 'macOS', value: 95 },
   { label: 'Windows 10', value: 95 },
-  { label: 'Linux', value: 75 },
+  { label: 'Linux', value: 95 },
   { label: 'Raspberry and development boards', value: 75 },
 ];
 
@@ -64,7 +64,7 @@ const OfficeSuits = [
 const Workflows = [
   { label: 'Agile/Scrum methodologies', value: 85},
   { label: 'Test Driven Development (TDD), PyTest, TestRail, ...', value: 85 },
-  { label: 'Version Contrtol GUIs: GitHub, GitLab, Sourcetree, ...', value: 85 },
+  { label: 'Version Control GUIs: VSCode, GitHub, GitLab, Sourcetree, ...', value: 85 },
   { label: 'Microsoft Office: Excel, Word, PowerPoint', value: 85 },
   { label: 'Google: Docs, Sheets, Slides, ...', value: 85 },
   { label: 'iWork: Numbers, Pages, Keynote.', value: 85 },

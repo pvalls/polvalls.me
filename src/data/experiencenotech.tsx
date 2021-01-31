@@ -10,7 +10,7 @@ const PLYZER: ExperienceDataNoTech = {
   place: 'Barcelona, Spain',
   headingIcon: 'fa-rocket',
   company: 'Plyzer Technologies',
-  iconURL: 'plyzer-logo.png',
+  iconURL: 'plyzer-logo.jpg',
   about: [
     <div key="plyzer-resp-1">
     <b>Artificial Intelligence Team (AI Team).</b>
@@ -41,7 +41,7 @@ const PLYZER: ExperienceDataNoTech = {
     <div className="column no-padding">
       <figure className="image">
         <Img fluid={data['PLYZER_2'].childImageSharp.fluid} />
-        <figcaption></figcaption>
+        <figcaption>Plyzer logo at the time.</figcaption>
       </figure>
     </div>
     </div>

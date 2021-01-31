@@ -19,6 +19,12 @@ const honors: CertificationsData[] = [
     issued: 'Atlassian (Coursera, 2019)',
     description: <p>Succesfully completed Atlassian's in-depth course on Git and version control with git.</p>,
   },
+  {
+    id: 'MachineLearning',
+    title: 'Machine Learning',
+    issued: 'Stanford Univerity (Coursera, 2020)',
+    description: <p>Succesfully completed Andrew Ng's course on Machine Learning.</p>,
+  },
 ];
 
 export default honors;
