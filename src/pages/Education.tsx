@@ -9,16 +9,10 @@ const imageDataEducation = graphql`
     UPF_DEGREE_logo: file(relativePath: { eq: "UPF_LOGO.png" }) {
       ...fixedImage
     }
-    UPF_DEGREE_1: file(relativePath: { eq: "graduated1.jpg" }) {
+    UPF_DEGREE_1: file(relativePath: { eq: "upf-1.jpg" }) {
       ...fluidImage
     }
-    UPF_DEGREE_2: file(relativePath: { eq: "graduated2.png" }) {
-      ...fluidImage
-    }
-    UPF_DEGREE_3: file(relativePath: { eq: "promotion.jpg" }) {
-      ...fluidImage
-    }
-    UPF_DEGREE_4: file(relativePath: { eq: "upf-edifici.jpg" }) {
+    UPF_DEGREE_2: file(relativePath: { eq: "upf-2.jpg" }) {
       ...fluidImage
     }
     IBACCALAUREATE_logo: file(relativePath: { eq: "IB.jpg" }) {
@@ -27,11 +21,9 @@ const imageDataEducation = graphql`
     IBACCALAUREATE_1: file(relativePath: { eq: "ib-germany.png" }) {
       ...fluidImage
     }
-
     IBACCALAUREATE_2: file(relativePath: { eq: "ib-class.png" }) {
       ...fluidImage
     }
-
     UPF_MASTER_logo: file(relativePath: { eq: "UPF_LOGO.png" }) {
       ...fixedImage
     }

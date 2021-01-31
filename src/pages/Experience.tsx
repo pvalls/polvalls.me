@@ -41,10 +41,10 @@ const imageDataExperience = graphql`
       ...fixedImage
     }
 
-    CUATRECASAS_1: file(relativePath: { eq: "cuatrecasas-office.png" }) {
+    CUATRECASAS_1: file(relativePath: { eq: "cuatrecasas-office-1.jpg" }) {
       ...fluidImage
     }
-    CUATRECASAS_2: file(relativePath: { eq: "cuatrecasas-office2.jpg" }) {
+    CUATRECASAS_2: file(relativePath: { eq: "cuatrecasas-office-2.jpg" }) {
       ...fluidImage
     }
     
@@ -52,23 +52,23 @@ const imageDataExperience = graphql`
       ...fixedImage
     }
 
-    SCYTL_1: file(relativePath: { eq: "scytl-office1.png" }) {
+    SCYTL_1: file(relativePath: { eq: "scytl-office-1.jpg" }) {
       ...fluidImage
     }
 
-    SCYTL_2: file(relativePath: { eq: "scytl-office2.png" }) {
+    SCYTL_2: file(relativePath: { eq: "scytl-office-2.jpg" }) {
       ...fluidImage
     }
 
-    PLYZER_logo: file(relativePath: { eq: "PLYZER2.png" }) {
+    PLYZER_logo: file(relativePath: { eq: "plyzer-banner.png" }) {
       ...fixedImage
     }
 
-    PLYZER_1: file(relativePath: { eq: "PlyzerOffice1.jpeg" }) {
+    PLYZER_1: file(relativePath: { eq: "plyzer-office-1.jpg" }) {
       ...fluidImage
     }
 
-    PLYZER_2: file(relativePath: { eq: "PLYZER.png" }) {
+    PLYZER_2: file(relativePath: { eq: "plyzer-logo.png" }) {
       ...fluidImage
     }
 

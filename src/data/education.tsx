@@ -35,7 +35,7 @@ const UPF_DEGREE: EducationData = {
         <div className="tile is-parent is-6 is-vertical">
           <div className="tile">
             <figure className="image">
-              <Img fluid={data['UPF_DEGREE_2'].childImageSharp.fluid} />
+              <Img fluid={data['UPF_DEGREE_1'].childImageSharp.fluid} />
               <figcaption>We were pretty happy when graduating.</figcaption>
             </figure>
           </div>
@@ -43,7 +43,7 @@ const UPF_DEGREE: EducationData = {
 
           <div className="tile is-6 is-vertical">
             <figure className="image">
-              <Img fluid={data['UPF_DEGREE_3'].childImageSharp.fluid} />
+              <Img fluid={data['UPF_DEGREE_2'].childImageSharp.fluid} />
               <figcaption>Best promotion ever.</figcaption>
             </figure>
         </div>

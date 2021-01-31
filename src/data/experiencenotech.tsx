@@ -10,7 +10,7 @@ const PLYZER: ExperienceDataNoTech = {
   place: 'Barcelona, Spain',
   headingIcon: 'fa-rocket',
   company: 'Plyzer Technologies',
-  iconURL: 'PLYZER.png',
+  iconURL: 'plyzer-logo.png',
   about: [
     <div key="plyzer-resp-1">
     <b>Artificial Intelligence Team (AI Team).</b>
