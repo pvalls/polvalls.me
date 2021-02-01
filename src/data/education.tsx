@@ -28,27 +28,20 @@ const UPF_DEGREE: EducationData = {
     
   ],
   additional_content: data => (
-
-    <div className="tile is-ancestor">
-      <div className="tile is-parent is-12">
-
-        <div className="tile is-parent is-6 is-vertical">
-          <div className="tile">
-            <figure className="image">
-              <Img fluid={data['UPF_DEGREE_1'].childImageSharp.fluid} />
-              <figcaption>We were pretty happy when graduating.</figcaption>
-            </figure>
-          </div>
-          </div>
-
-          <div className="tile is-6 is-vertical">
-            <figure className="image">
-              <Img fluid={data['UPF_DEGREE_2'].childImageSharp.fluid} />
-              <figcaption>Best promotion ever.</figcaption>
-            </figure>
+    <div className="columns">
+      <div className="column is-half no-padding">
+        <figure className="image">
+            <Img fluid={data['UPF_DEGREE_1'].childImageSharp.fluid} />
+            <figcaption>We were pretty happy when graduating.</figcaption>
+        </figure>
         </div>
-       </div>
+        <div className="column is-half no-padding">
+        <figure className="image">
+            <Img fluid={data['UPF_DEGREE_2'].childImageSharp.fluid} />
+            <figcaption>Best promotion ever.</figcaption>
+        </figure>
       </div>
+    </div>
   ),
 };
 
