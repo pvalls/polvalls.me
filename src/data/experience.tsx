@@ -37,9 +37,7 @@ const SCYTL: ExperienceData = {
       <b>Workflows:</b> with Jira, TestRail, Skype Business, etc.{' '}
     </div>,
     <div key="scytl-tech-3">
-      <b>Others:</b> Unix Bash shell, Open-stack, Ansible, Docker, Linux servers, 
-      Splunk, PostMan, PuTTY, Microsoft Office Automation. Configuration 
-      of Interacative Voice Response systems (IVR).
+      <b>Others:</b> Unix Bash shell, Open-stack, Ansible, Docker, Linux servers, PostMan. Interacative Voice Response systems (IVR).
     </div>,
   ],
   // accomplishments: [
@@ -120,7 +118,7 @@ const CUATRECASAS: ExperienceData = {
           <figcaption>Cuatracasas offices.</figcaption>
         </figure>
       </div>
-      <div className="column no-padding">
+      <div className="column is-half no-padding">
         <figure className="image">
           <Img fluid={data['CUATRECASAS_2'].childImageSharp.fluid} />
           <figcaption>CUATRECASAS Building (Poblenou 22@).</figcaption>
@@ -138,7 +136,7 @@ const TECHIE: ExperienceData = {
   headingIcon: 'fa-brain',
   place: 'Girona, Spain',
   company: "Techie Products & Systems",
-  iconURL: 'TECHIE.jpg',
+  iconURL: 'techie-logo.jpg',
   about: [
     <div key="TECHIE-resp-1">
       <b>Technology consultant</b> for a newly created company.
@@ -162,11 +160,17 @@ const TECHIE: ExperienceData = {
     </div>,
   ],
   additional_content: data => (
-    <div className="column no-padding">
-      <div className="column is-two-thirds no-padding">
+    <div className="columns">
+      <div className="column is-half no-padding">
         <figure className="image">
           <Img fluid={data['TECHIE_1'].childImageSharp.fluid} />
           <figcaption>Techie at the BCN PISCINA &amp;  WELLNESS Fair.</figcaption>
+        </figure>
+      </div>
+      <div className="column is-half no-padding">
+        <figure className="image">
+          <Img fluid={data['TECHIE_2'].childImageSharp.fluid} />
+          <figcaption>Products commercialized by Techie.</figcaption>
         </figure>
       </div>
     </div>
