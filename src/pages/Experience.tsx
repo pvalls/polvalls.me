@@ -72,13 +72,17 @@ const imageDataExperience = graphql`
       ...fluidImage
     }
 
-    TECHIE_logo: file(relativePath: { eq: "TECHIE.jpg" }) {
+    TECHIE_logo: file(relativePath: { eq: "techie-logo.jpg" }) {
       ...fixedImage
     }
 
-    TECHIE_1: file(relativePath: { eq: "techie-fira.jpg" }) {
+    TECHIE_1: file(relativePath: { eq: "techie-1.jpg" }) {
       ...fluidImage
     }
+
+    TECHIE_2: file(relativePath: { eq: "techie-2.jpg" }) {
+        ...fluidImage
+      }
 
   }
 `;
