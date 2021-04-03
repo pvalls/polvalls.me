@@ -19,7 +19,7 @@ const General = [
   { label: 'Bash, Zsh. General Shell scripting (CLI)', value: 90 },
   { label: 'Git & version control', value: 90 },
   { label: 'Conda, Tmux, Cron, rsync, ... ', value: 90 },
-  { label: 'Docker.  Jenkins, Ansible, GitHub Actions', value: 80 },
+  { label: 'Docker, Jenkins, GitHub Actions', value: 90 },
 ];
 
 const Web = [
@@ -35,14 +35,12 @@ const CloudComputing = [
   { label: 'Google Cloud.', value: 45 },
   { label: 'Heroku.', value: 45 },
   { label: 'Microsoft Azure.', value: 45 },
-  { label: 'Jenkins, Ansible, OpenStack', value: 45},
 ];
 
 
 const  TechnicalComputing = [
   { label: 'MATLAB/OCTAVE', value: 95 },
-  { label: 'Markdown', value: 95 },
-  { label: 'LaTeX', value: 95 },
+  { label: 'Markdown, LaTeX', value: 95 },
   { label: 'PureData', value: 35 },
   { label: 'R', value: 35 },
 ];

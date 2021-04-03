@@ -3,7 +3,7 @@ import * as React from 'react';
 const honors: CertificationsData[] = [
   {
     id: 'DrivingLicence',
-    title: "Driving License (AM & B)",
+    title: "Driving License (AM, B & A1)",
     issued: 'Dirección General de Tráfico, 2015',
     description: (<p>Driving license for saloon cars and motorcycles.</p>),
   },
