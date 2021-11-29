@@ -43,7 +43,7 @@ export default ({
                 <p key={`resp-${idx}`}>{el}</p>
               ))}
             {/* </ul> */}
-            <h2 className="title is-size-6 has-text-grey-dark">Responsabilities</h2>
+            <h2 className="title is-size-6 has-text-grey-dark">Responsibilities</h2>
             <ul>
               {responsabilities.map((el, idx) => (
                 <li key={`resp-${idx}`}>{el}</li>
