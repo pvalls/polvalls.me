@@ -10,7 +10,6 @@ const contact = [
   { icon: 'fab fa-twitter', field: '/polvallss', link:'https://twitter.com/polvallss'},
   { icon: 'fab fa-spotify', field: 'Pol Valls', link:'https://open.spotify.com/user/vflicvbu8h32rulbtjotri4if?si=MOZoT42QTsylJTkNxjEQ1Q'},
   { icon: 'fab fa-youtube', field: '/Polvallsrue', link:'https://www.youtube.com/user/Polvallsrue'},
-  { icon: 'fab fa-google-play', field: 'TV Time App', link:'https://www.tvtime.com/user/17715121/profile?c=shared_profile'},
   { icon: 'fab fa-paypal', field: '/polvalls', link:'https://www.paypal.me/polvalls'},
   { icon: 'fas fa-globe-europe', field: 'Based in Barcelona, open to work remote / relocate' },
 ];
