@@ -17,6 +17,12 @@ Node versioning:
 - nvm 0.39.1
 - n 8.2.0
 
+Activate node versions with:
+
+```bash
+N_PREFIX=$HOME/.local n <node-version>
+```
+
 ## Acknowledgements ##
 
 Base website template from [@aalises](https://github.com/aalises). 
