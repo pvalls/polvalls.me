@@ -60,6 +60,18 @@ const imageDataExperience = graphql`
       ...fluidImage
     }
 
+    COATINGAI_logo: file(relativePath: { eq: "coatingai-banner.png" }) {
+      ...fixedImage
+    }
+
+    COATINGAI_1: file(relativePath: { eq: "coatingai-linkedin-post.jpg" }) {
+      ...fluidImage
+    }
+
+    COATINGAI_2: file(relativePath: { eq: "coatingai-paintexpo.jpg" }) {
+      ...fluidImage
+    }
+
     PLYZER_logo: file(relativePath: { eq: "plyzer-banner.png" }) {
       ...fixedImage
     }
