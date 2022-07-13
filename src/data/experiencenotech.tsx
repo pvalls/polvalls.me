@@ -51,7 +51,7 @@ const COATINGAI: ExperienceDataNoTech = {
 
 const PLYZER: ExperienceDataNoTech = {
   id: 'PLYZER',
-  period: 'December 2019 - Now',
+  period: 'December 2019 - June 2022',
   title: 'Artificial Intelligence Engineer',
   place: 'Barcelona, Spain',
   headingIcon: 'fas fa-flag-checkered',
